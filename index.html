@@ -797,7 +797,7 @@ function renderCategories() {
 
     const optAll = document.createElement('option');
     optAll.value = 'all';
-    optAll.textContent = `🎬 Todas las Categorias (${channels.length})`;
+    optAll.textContent = `🎬 Todas las Categorias y Canales (${channels.length})`;
     select.appendChild(optAll);
 
     const sortedCategories = Array.from(categories)
@@ -1370,4 +1370,5 @@ window.addEventListener('load', loadPlaylist);
 </body>
 
 </html>
+
 
